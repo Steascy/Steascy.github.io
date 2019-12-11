@@ -1927,7 +1927,7 @@ img:hover {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #ffff04;
+  background: #1d83f6;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -3239,16 +3239,26 @@ body {
   -moz-box-shadow: 0 0 5px rgba(202,203,204,0.5);
 }
 .content {
+  margin-top: 10px;
   border-radius: 20px;
   padding: 30px 60px 30px 60px;
   background: rgba(255,255,255,0.5) none repeat scroll !important;
   padding: 20px;
+}
+#posts > article + article .post-block {
+  margin-top: 12px;
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,0.12), 0 3px 1px -2px rgba(0,0,0,0.06), 0 1px 5px 0 rgba(0,0,0,0.12), 0 -1px 0.5px 0 rgba(0,0,0,0.09);
+  border-radius: 10px;
+}
+.posts-expand {
+  margin-top: -5px;
 }
 .post-block {
   background: rgba(255,255,255,0.6) none repeat scroll !important;
   border-radius: 10px;
 }
 .header-inner {
+  margin-top: 10px;
   border-radius: 10px;
   background: rgba(255,255,255,0.9) none repeat scroll !important;
 }
@@ -3256,4 +3266,22 @@ body {
   height: 100px;
   background-image: url("/images/bg1.jpg");
   background-size: cover;
+}
+.sidebar {
+  position: absolute;
+  float: left;
+  width: 240px;
+  background: transparent;
+  box-shadow: none;
+  top: 20px;
+  border-radius: 10px;
+}
+.sidebar-inner {
+  box-sizing: border-box;
+  width: 240px;
+  color: #555;
+  background: rgba(255,255,255,0.8) none repeat scroll !important;
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,0.12), 0 3px 1px -2px rgba(0,0,0,0.06), 0 1px 5px 0 rgba(0,0,0,0.12), 0 -1px 0.5px 0 rgba(0,0,0,0.09);
+  border-radius: 10px;
+  opacity: 0;
 }
