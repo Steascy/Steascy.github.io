@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>闪闪的博客</title>
+  <title>Miraitowa</title>
   
-  <subtitle>坚持学习</subtitle>
+  <subtitle>山河无恙</subtitle>
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://starrylf.cn/"/>
@@ -10,7 +10,7 @@
   <id>http://starrylf.cn/</id>
   
   <author>
-    <name>飞飞飞</name>
+    <name>ST</name>
     
   </author>
   
