@@ -3,13 +3,13 @@ var OriginTitle = document.title;
 var titleTime;
 document.addEventListener('visibilitychange', function () {
     if (document.hidden) {
-       $('[rel="icon"]').attr('href', "/images/b1.png"); //如果需要图标一起变，那么就将这行取消注释并选择正确的图片路径
-        // document.title = ' 🌝别走啊';//要显示的信息
+      //  $('[rel="icon"]').attr('href', "/images/b1.png"); //如果需要图标一起变，那么就将这行取消注释并选择正确的图片路径
+        document.title = ' 🌝别走啊';//要显示的信息
         clearTimeout(titleTime);
     }
     else {
-         $('[rel="icon"]').attr('href', "/images/a1.png"); //同上
-        // document.title = '🌞' + OriginTitle;
+        //  $('[rel="icon"]').attr('href', "/images/a1.png"); //同上
+        document.title = '🌞' + OriginTitle;s
         titleTime = setTimeout(function () {
           
             // document.title = '🌞' +OriginTitle;
